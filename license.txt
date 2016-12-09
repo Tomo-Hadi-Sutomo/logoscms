@@ -1,0 +1,54 @@
+Welcome to logosCMS
+this version is version 1.0 (my first logosCMS release)
+Intoduce the author name is: Tomo
+author website: http://www.stikes-bu.ac.id
+				http://www.akper-bu.ac.id
+				http://www.topdesain.com
+author facebook:http://www.facebook.com/tomo.logos
+				http://www.facebook.com/stikes.bu
+				http://www.facebook.com/stikes.bu.jombang
+				http://apps.facebook.com/stikes.bu
+				http://apps.facebook.com/stikes_bahrul_ulum
+author emai:	tomo.logos@gmail.com
+				baak@stikes-bu.ac.id
+
+FOR INSTALLATION:
+1. UNZIP the logosCMS file, place them on your /htdocs or /public_html folder on your webserver
+2. Go to your MYSQL browser (phpMyAdmin, SQLBuddy, etc), and create USERNAME and PASSWORD for mysql access, then create DATABASE!
+3. Change mysql USERNAME, PASSWORD and DATABASE within CONFIG.PHP file based on your setting above!
+4. Change TABLE for mysql table too as your desire.
+5. Don't Forget to change your ADMIN USERNAME and PASSWORD for security!
+6. Open your logosCMS website in your browser.
+7. Just It!, You are Successfully Install logosCMS on your webserver.
+8. Don't forget to remove SCRIPT AT LINE 2 at INDEX.PHP file and DELETE INSTALL.PHP file!
+
+
+FOR ADMINISTRATION MANAGEMENT:
+1. Point your browser at: http://www.yourwebsite.com/login
+2. Enter username and password, 
+	username: yourusername 
+	password: yourpassword
+3. You will be pointed at Administration Page (http://www.yourwebsite.com/admin)
+4. Now, You can:
+	Look or lihat
+	Edit
+	Delete or hapus
+	Add Page or >>Add posting disni<<
+5. These Easy is, the editor of add page (or http://www.yourwebsite.com/tambah) and edit page(or http://www.yourwebsite.com/tambah) is WYSIWYG (What You See Is What You Get) editor.
+6. complete all form especially on add page or tambah (http://www.yourwebsite.com/tambah), then click save.
+7. You can edit every page at edit page or edit (http://www.yourwebsite.com/edit) and save separately (URL, TITLE, META DESCRIPTION, META KEYWORDS, and CONTENT) for SEO OPTIMIZATION (These Very Usefull Application for You).
+8. These Version was URL Friendly I Have done with .htaccess
+9. That's Done
+
+--End Of Installation Instructions And Adminstration Management
+
+Additional Note:
+You are free:
+	to Share — to copy, distribute and transmit the work
+	to Remix — to adapt the work
+ONLY IF You give credit the way requested (Keeping copyright "written By" "Powered By" and "Link" intact the bottom of every page to author.)
+This license lets others distribute, remix, tweak, and build upon your work,
+even commercially, as long as they credit you for the original creation.
+// That's it, any questions? please send email to author.
+
+THANK YOU FOR USING THESE LogosCMS

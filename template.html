@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<?php
+  echo "<title>$r_title</title>\n".
+	   "<meta name='description' content='$r_desc' />\n".
+	   "<meta name='keywords' content='$r_key' />\n";
+?>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<div id="wrapper">
+<div id="wrapper-top">
+<div id="wrapper-btm">
+	<div id="header">
+		<h1><a href="#">BEM STIKES BU </a></h1>
+		<p>website</p>
+	</div>
+		<div id="page">
+		<div class="bgtop">
+			<div class="bgbtm">
+				<!-- start content -->
+				<div id="content">
+					<div class="post">
+						<h1 class="title"><?php echo $r_title; ?></h1>
+						<p class="byline"><small>Dibaca pada tanggal <?php echo $date; ?></small></p>
+						<div class="entry">
+							<p><?php echo $r_content; ?></p>
+						</div>
+					</div>
+					<div class="post">
+						<?php if(isset($r_title2)) { echo "<h2 class='title'> $r_title2 </h2>
+						<p class='byline'><small>Dibaca pada tanggal $date</small></p>
+						<div class='entry'>
+							<p> $r_content2</p>
+						</div>"; } ?>
+						<!--<p class="meta"><a href="#" class="more">Read More</a> &nbsp;&nbsp; &nbsp;&raquo;&nbsp;&nbsp; <a href="#" class="comments">Comments</a> (33)</p>-->
+					</div>
+					<div class="post">
+						<?php if(isset($r_title3)) { echo "<h2 class='title'>".$r_title3."</h2>
+						<p class='byline'><small>Dibaca pada tanggal $date</small></p>
+						<div class='entry'>
+							<p> $r_content3</p>
+						</div>"; } ?>
+					</div>
+				</div>
+				<div id="sidebar">
+					<ul>
+						<li>
+							<h2>Main Menu :</h2>
+							<ul>
+								<?php menuatas(); ?>
+							</ul>
+						</li>
+						<li>
+							<h2>Menu Lengkap :</h2>
+							<ul>
+								<?php nav(); ?>
+								<li><a href="login">Administrator</a></li>
+							</ul>
+						</li>
+						<li>
+							<h2>Useful Resources</h2>
+							<ul>
+								<li><a href="http://www.stikes-bu.ac.id" target="_blank" title="stikes bahrul ulum jombang">Stikes Bahrul Ulum Jombang</a></li>
+								<li><a href="http://u.stikes-bu.ac.id" target="_blank" title="url shorthening service from stikes bahrul ulum jombang">URL Shorthening Service</a></li>
+								<li><a href="http://spmb.stikes-bu.ac.id/" target="_blank" title="spmb stikes bahrul ulum jombang">SPMB Stikes Bahrul Ulum</a></li>
+								<li><a href="http://www.stikes-bu.ac.id/bmi/" target="_blank" title="bmi calculator from stikes bahrul ulum jombang">BMI Calculator</a></li>
+								<li><a href="http://www.stikes-bu.ac.id/kal_ovulasi/" target="_blank" title="ovulation calculator from stikes bahrul ulum jombang">Ovulation Calculator</a></li>
+								<li><a href="http://www.stikes-bu.ac.id/calc_pregnacy/" target="_blank" title="calculator for pregnancy women from stikes bahrul ulum jombang">Calculator For Pregnancy Women</a></li>
+								<li><a href="http://www.stikes-bu.ac.id/kalender/" target="_blank" title="calendar application from stikes bahrul ulum jombang">Calendar</a></li>
+								<li><a href="http://www.topdesain.com" target="_blank" title="desain kasos online">top desain</a></li>
+								<li><a href="http://www.akper-bu.ac.id" target="_blank" title="akper bahrul ulum jombang">akper bahrul ulum</a></li>
+								<li><a href="http://www.facebook.com/stikes.bu" title="Facebook Page stikes bahrul ulum jombang">facebook | stikes bahrul ulum</a></li>
+							</ul>
+						</li>
+						<li>
+							<h2>Links</h2>
+							<ul>
+								<li><a href="http://alumni.stikes-bu.ac.id/" target="_blank" title="alumni stikes bahrul ulum jombang">ikatan alumni Stikes Bahrul Ulum Jombang</a></li>
+								<li><a href="http://i.stikes-bu.ac.id/" target="_blank" title="iframe stikes bahrul ulum jombang">mirror stikes bahrul ulum</a></li>
+								<li><a href="http://perpustakaan.stikes-bu.ac.id/" target="_blank" title="perpustakaan online stikes bahrul ulum jombang">perpustakaan online Stikes Bahrul Ulum</a></li>
+								<li><a href="http://baak.stikes-bu.ac.id/" target="_blank" title="baak biro administrasi akademik dan kemahasiswaan stikes bahrul ulum jombang">BMI Calculator</a></li>
+								<li><a href="http://www.stikes-bu.ac.id/kurikulum" target="_blank" title="kurikulum stikes bahrul ulum jombang">kurikulum</a></li>
+								<li><a href="http://www.stikes-bu.ac.id/subdomain" target="_blank" title="subdomain stikes bahrul ulum jombang">subdomain stikes bahrul ulum jombang</a></li>
+								<li><a href="http://www.stikes-bu.ac.id/prodi" target="_blank" title="program studi prodi stikes bahrul ulum jombang">program studi stikes bahrul ulum</a></li>
+								<li><a href="http://www.topdesain.com" target="_blank" title="desain kasos online">top desain</a></li>
+								<li><a href="http://www.akper-bu.ac.id" target="_blank" title="akper bahrul ulum jombang">akper bahrul ulum</a></li>
+								<li><a href="http://apps.facebook.com/stikes.bu" title="Aplikasi Facebook stikes bahrul ulum jombang">Aplikasi facebook</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div style="clear:both">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+<div id="footer">
+	<p>&copy; Copyright 2012 Written by : <a href="http://www.topdesain.com">Tomo</a> | <a href="http://www.stikes-bu.ac.id/">LogosCMS</a> | <a href="http://code.google.com/p/logoscms/downloads/list">logosCMS.zip</a></p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
